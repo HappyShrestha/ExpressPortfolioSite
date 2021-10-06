@@ -1,0 +1,57 @@
+<!--Main nav-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  
+    <a class="navbar-brand"  href="/"><img src="/Assets/images/icon.png" width="50" height="50" class="d-inline-block align-top" alt=""/>
+    Portfolio</a>
+       
+    <!--Hamburger button-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav ml-auto">
+
+        <% if (title == "Home"){ %>
+        <li class="nav-item active">
+          <% } else { %>
+        <li class="nav-item">
+          <% } %>
+          <a class="nav-link" href="/home"><i class="fas fa-lg fa-house-user"></i> Home</a>
+        </li>
+
+        <% if (title == "About me"){ %>
+        <li class="nav-item active">
+          <% } else { %>
+        <li class="nav-item">
+          <% } %>
+          <a class="nav-link" href="/about"><i class="fas fa-user"></i> About me</a>
+        </li>
+
+        <% if (title == "Projects"){ %>
+        <li class="nav-item active">
+          <% } else { %>
+        <li class="nav-item">
+          <% } %>
+          <a class="nav-link" href="/projects"><i class="fas fa-tasks"></i> Projects</a>
+        </li>
+
+        <% if (title == "Services"){ %>
+        <li class="nav-item active">
+          <% } else { %>
+        <li class="nav-item">
+          <% } %>
+          <a class="nav-link" href="/services"><i class="fas fa-concierge-bell"></i> Services</a>
+        </li>
+
+        <% if (title == "Contact me"){ %>
+        <li class="nav-item active">
+          <% } else { %>
+        <li class="nav-item">
+          <% } %>
+          <a class="nav-link" href="/contact"><i class="fas fa-id-card"></i> Contact me</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>

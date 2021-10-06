@@ -1,0 +1,68 @@
+ <!-- Created by: Happy Shrestha # 301173200 -->
+ <% include partials/header.ejs %>
+
+<% include partials/main_nav.ejs %>
+
+<main class="container">
+    <div class="jumbotron">
+  <h1 class="display-4">Contact page</h1>
+        <img src="/Assets/images/pic.jpeg" width="300" height="400" alt="Happy Shrestha">
+        <br></span>Happy Shrestha</span>
+        <br>Phone: </span>(437)-218-3445</span>
+        <br>Email: <a href="mailto:hshrest1@my.centennialcollege.ca">hshrest1@my.centennialcollege.ca</a>
+    
+ <!--I have reused by own code from the first semester-->  
+   
+<form method="post" action="mailto:hshrest1@my.centennialcollege.ca">
+	<legend><h3>Contact me</h3> </legend>
+    <table align="center" style="width: 60%">
+        <tr><a href="/" title="Click to go back to home page">Back to home  </a> </tr>
+		<tr>
+			<td class="tdrigtht" style="width: 285px">
+<lang="en-ca">First Name: </td>
+			<td>
+<input name="txtFirstNAme" type="text" tabindex="1" /></td>
+		</tr>
+		<tr>
+			<td class="tdrigtht" style="width: 285px">
+<label class="tdrigtht">Last Name:</td>
+			<td><input name="txtLastNAme" type="text" tabindex="3" /></td>
+		</tr>
+		<tr>
+			<td class="tdrigtht" style="width: 285px">Your Email:
+			</td>
+			<td><input name="txtEmail" type="email" size="30" tabindex="5" /></td>
+		</tr>
+	
+		<tr>
+			<td class="tdrigtht" style="width: 285px">Service:</td>
+			<td><select name="dropDownService" tabindex="9">
+				<option></option>
+				<option>Custom web page</option>
+				<option>Data visualization</option>
+				<option>Data mining</option>
+                <option>web application</option>
+			</select></td>
+		</tr>	
+		<tr>
+			<td class="tdrigtht" style="width: 285px"><span lang="en-ca">
+			Any additional queries:</td>
+			<td><span lang="en-ca">
+			<textarea cols="30" name="txtadditionalqueries" rows="4" tabindex="21"></textarea></td>
+		</tr>
+		<tr>
+			<td style="width: 285px; height: 95px;"><span lang="en-ca">
+		<input name="submitbtn" tabindex="23" type="submit" value="Send Your Info" class="floatRight"></td>
+			<td style="height: 95px"><span lang="en-ca">
+			
+			<input name="Resetbutn" tabindex="25" type="reset" value="Clear your Info " class="floatRight"></td>
+		</tr>
+	</table>
+	</form>
+
+</div>
+</main>
+
+<% include partials/bottom_nav.ejs %>
+
+<% include partials/footer.ejs %>

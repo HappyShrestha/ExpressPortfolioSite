@@ -1,0 +1,41 @@
+/*<!-- Created by: Happy Shrestha # 301173200  Created on Oct 4th 2021-->*/
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: #001A64;
+    background-color: #A0ADC8;
+}
+
+a:hover {
+    background-color: #A0ADC8;
+}
+
+a:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+}
+
+h2 {
+    text-align: justify;
+}
+
+
+
+img {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+legend {
+    text-align: center;
+}
+.list{
+    background-color: #A0ADC8;
+    list-style: url(/Assets/images/orange.gif);
+    margin: 5px;
+    margin-right: inherit;
+    list-style-position: inside;
+    font-size:la
+  }
