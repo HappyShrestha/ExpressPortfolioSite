@@ -29,6 +29,5 @@
     "url": "(https://github.com/HappyShrestha/ExpressPortfolioSite.git)"
   },
   "author": "Happy Shrestha",
-  "license": "ISC",
-  "devDependencies": {}
+  "license": "ISC"
 }
